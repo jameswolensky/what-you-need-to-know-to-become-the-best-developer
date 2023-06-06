@@ -12,3 +12,4 @@ A child class should be able to replace its parent class
 Classes should only be forced to implement the methods they need
 
 - (D)ependency Inversion Principle
+High-level modules (a module that requires other modules to function) should not implement low-level modules (a specific, single-purpose module) directly, but instead the high-level modules should use an abstraction (A high-level module shouldn't implement Stripe directly - it should implement a generic, abstract PaymentProcessor class instead).
